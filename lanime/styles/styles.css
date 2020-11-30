@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+    width: 80%;
+    margin: auto;
+    font-family: arial;
+    background: rgb(109,100,100);
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+/* Navigation */
+
+nav {
+    background: rgb(212, 200, 200);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+/* Landing Page */
+
+#rate-anime {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#anime-placeholder {
+    display: flex;
+    align-items: flex-end;
+    background: blue;
+    height: 250px;
+    width: 50%;
+}
+
+#anime-name {
+    text-align: center;
+    opacity: 50%;
+    height: 10%;
+    width: 100%;
+    background: lightblue;
+}
