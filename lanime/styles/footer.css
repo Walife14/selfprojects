@@ -1,0 +1,7 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background:rgb(212, 200, 200);
+    height: 5vh;
+}
