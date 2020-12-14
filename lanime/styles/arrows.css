@@ -1,18 +1,29 @@
 /* Arrow css taken from w3schools */
 
 .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+  margin: 1rem;
 }
 .arrow-up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
 .arrow-down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrow-right {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
 }
 
 .arrows-padding {

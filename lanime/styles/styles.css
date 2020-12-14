@@ -19,6 +19,15 @@ a {
     color: #222222;
 }
 
+/* Global */
+
+#divider {
+    height: 1px;
+    width: 80%;
+    background: black;
+    margin: 2em auto;
+}
+
 /* Navigation */
 
 nav {
@@ -74,3 +83,8 @@ nav ul li {
     border: solid 1px black;
 }
 /* Slideshow */
+
+#slideshow-container {
+    display: flex;
+    justify-content: space-around;
+}

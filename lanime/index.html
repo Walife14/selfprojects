@@ -48,13 +48,15 @@
     <div id="skip-option">
         <span>SKIP</span>
     </div>
+    <!-- Divider -->
+    <div id="divider"></div>
     <!-- Anime Slideshow -->
     <div id="slideshow-container">
-        <div id="previousSlide"></div>
+        <div id="previousSlide" class="arrow arrow-left"></div>
         <div id="currentSlide">
-            <img src="" alt="">
+            <img id="slideshowImg" src="" alt="Slideshow Image">
         </div>
-        <div id="nextSlide"></div>
+        <div id="nextSlide" class="arrow arrow-right"></div>
     </div>
     <!-- Footer -->
     <footer>
@@ -62,4 +64,5 @@
     </footer>
 </div>
 </body>
+<script src="/scripts/slideshow.js" async></script>
 </html>
