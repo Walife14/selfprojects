@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #222222;
 }
 
 #main-container {
@@ -9,6 +10,13 @@
     margin: auto;
     font-family: arial;
     background: rgb(109,100,100);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
 }
 
 /* Navigation */
@@ -65,3 +73,4 @@ nav ul li {
     border-radius: 2rem;
     border: solid 1px black;
 }
+/* Slideshow */
